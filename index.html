@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>BMI CALCULATOR</h1>
+    </div>
+    <div class="container">
+        <form>
+            <div class="f1">
+                <label for="height">Height (in CM)</label>
+                <input type="text" id="height" placeholder="eg 176">
+            </div>
+            <div class="f2">
+                <label for="weight">Weight (in KG)</label>
+                <input type="text" id="weight" placeholder="eg 60">
+            </div>
+            <div class="submit">
+                <button>Calculate</button>
+            </div>
+        </form>
+        <div id="result"></div>
+        <div id="message"></div>
+        <table border="3">
+            <tr>
+                <th>Classification</th>
+                <th>BMI</th>
+            </tr>
+            <tr>
+                <td>Severe Thinness</td>
+                <td>&lt;16 </td>
+            </tr>
+            <tr>
+                <td>Moderate Thinness</td>
+                <td>16 - 17</td>
+            </tr>
+            <tr>
+                <td>Mild Thinness</td>
+                <td>17 - 18.5</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>18.5 - 25</td>
+            </tr>
+            <tr>
+                <td>Overweight</td>
+                <td>25 - 30</td>
+            </tr>
+            <tr>
+                <td>Obese</td>
+                <td>30-35</td>
+            </tr>
+            <tr>
+                <td>Extremely Obese</td>
+                <td>&gt;35</td>
+            </tr>
+        </table>
+    </div>
+    <h2>What is BMI?</h2>
+    <div class="details">
+
+        <div>Body Mass Index (BMI) is a standardized measurement that evaluates a person’s body weight in relation to
+            their height. It is calculated by dividing an individual’s weight in kilograms by the square of their height
+            in meters (kg/m²).
+            <br>
+            BMI is widely used by health professionals as a quick and easy screening tool to classify individuals into
+            categories such as underweight, normal weight, overweight, and obese. These categories help assess potential
+            health risks associated with body fat levels.
+            <br>
+            While BMI does not directly measure body fat percentage, it provides a reliable indicator for most people
+            and is useful in identifying possible weight-related health issues like heart disease, diabetes, and high
+            blood pressure.
+            <br>
+            However, BMI should be interpreted with caution, especially for athletes or individuals with high muscle
+            mass, as it may overestimate body fat. Despite its limitations, BMI remains a valuable tool for public
+            health and personal fitness assessment.
+            <br>
+            Formula to Calculate BMI : 
+            <br>
+            
+ BMI = Weight (kg) / Height (m)<sup>2</sup>
+<br>
+BMI cannot be fully accurate because it is a measure of excess body weight, rather than excess body fat. BMI is further influenced by factors such as age, sex, ethnicity, muscle mass, body fat, and activity level, among others. For example, an older person who is considered a healthy weight, but is completely inactive in their daily life may have significant amounts of excess body fat even though they are not heavy. This would be considered unhealthy, while a younger person with higher muscle composition of the same BMI would be considered healthy. In athletes, particularly bodybuilders who would be considered overweight due to muscle being heavier than fat, it is entirely possible that they are actually at a healthy weight for their body composition. 
+        </div>
+        <div><img
+                src="https://static.vecteezy.com/system/resources/previews/042/168/304/large_2x/body-mass-index-infographic-chart-colorful-bmi-chart-illustration-with-white-isolated-background-vector.jpg"
+                alt=""></div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
